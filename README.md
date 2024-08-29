@@ -12,6 +12,13 @@ Once you have the access token generated, follow the steps here to setup the vll
 
 ### Running the app
 
+Setup the environement and install the following libraries
+
+```
+pip install langchain_nvidia_ai_endpoints nemoguardrails openai
+
+```
+
 Add the environment variables as follows:
 
 Here NVIDIA NIMs are used for both the embedding model and LLM. You can easily swap the models with your choice
