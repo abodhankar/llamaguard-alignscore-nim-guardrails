@@ -27,9 +27,12 @@ Here NVIDIA NIMs are used for both the embedding model and LLM. You can easily s
 export NVIDIA_API_KEY=....
 export OPEANI_API_KEY-"dummy"
 ```
-run the `ingest.py` file with whatever pdf as your data. Here the data is based on NVIDIA AI Enterprise user guide.
+run the `ingest.py` file with whatever pdf as your data. Here the data is based on NVIDIA AI Enterprise user guide and then run `main.py` as follows:
 
-run the `main.py` 
+```
+python ingest.py
+python main.py
+```
 
 ## For the notebook
 
